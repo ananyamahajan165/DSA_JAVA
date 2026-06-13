@@ -1,2 +1,2 @@
 # DSA_JAVA
-Practice of java questions 
+Practice of java questions
