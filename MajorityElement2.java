@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class MajorityElement {
     public List<Integer> majorityElement(int[] nums) {
 
         HashMap<Integer, Integer> map = new HashMap<>();
