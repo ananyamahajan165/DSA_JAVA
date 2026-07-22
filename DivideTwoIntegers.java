@@ -5,7 +5,6 @@ public class DivideTwoIntegers {
         if (dividend == Integer.MIN_VALUE && divisor == -1) {
             return Integer.MAX_VALUE;
         }
-
         long dvd = Math.abs((long) dividend);
         long dvs = Math.abs((long) divisor);
 
