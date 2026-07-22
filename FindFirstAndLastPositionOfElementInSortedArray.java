@@ -3,11 +3,11 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
         int s = 0;
         int e = n-1;
         int m = 0;
-        int f = -1;
+        int ans = -1;
         while(s<=e){
             m = s+(e-s)/2;
             if(t == arr[m]){
-                f = m;
+                ans = m;
                 e = m-1;
             }
             else if(t<arr[m]){
@@ -17,17 +17,17 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
                 s = m+1;
             }
         }
-        return f;
+        return ans;
     }
     public int upperBound(int arr[], int t, int n){
         int s = 0;
         int e = n-1;
         int m = 0;
-        int f = -1;
+        int ans = -1;
         while(s<=e){
             m = s+(e-s)/2;
             if(t == arr[m]){
-                f = m;
+                ans = m;
                 s=m+1;
             }
             else if(t<arr[m]){
@@ -37,7 +37,7 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
                 s = m+1;
             }
         }
-        return f;
+        return ans;
     }
     public int[] searchRange(int[] nums, int t) {
         int n = nums.length;
