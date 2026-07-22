@@ -1,40 +1,18 @@
 public class DivideTwoIntegers {
-
-    public static int divide(int dividend, int divisor) {
-
-        if (dividend == Integer.MIN_VALUE && divisor == -1) {
-            return Integer.MAX_VALUE;
+    public int divide(int dividend, int divisor) {
+        if(dividend==Integer.MIN_VALUE && divisor==-1) return Integer.MAX_VALUE;
+        if(divisor==1) return dividend;
+        if(divisor==-1) return -dividend;
+        boolean negative = false;
+        if((dividend<0 && divisor>0)||(dividend>0 && divisor<0)) negative=true;
+        long a = Math.abs((long)dividend);
+        long b = Math.abs((long)divisor);
+        int count=0;
+        while(a>=b){
+            a=a-b;
+            count++;
         }
-        long dvd = Math.abs((long) dividend);
-        long dvs = Math.abs((long) divisor);
-
-        int result = 0;
-
-        while (dvd >= dvs) {
-            long temp = dvs;
-            int multiple = 1;
-
-            while (dvd >= (temp << 1)) {
-                temp <<= 1;
-                multiple <<= 1;
-            }
-
-            dvd -= temp;
-            result += multiple;
-        }
-
-        if ((dividend < 0) ^ (divisor < 0)) {
-            result = -result;
-        }
-
-        return result;
-    }
-
-    public static void main(String[] args) {
-
-        System.out.println(divide(10, 3));   // 3
-        System.out.println(divide(7, -3));   // -2
-        System.out.println(divide(-15, 2));  // -7
-        System.out.println(divide(1, 1));    // 1
+        if(negative) return -count;
+        return count;
     }
 }
