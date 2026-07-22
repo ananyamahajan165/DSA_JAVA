@@ -18,7 +18,6 @@ public class MedianOfTwoSortedArrays {
             }
             k++;
         }
-
         while (i < m) {
             arr[k++] = nums1[i++];
         }
