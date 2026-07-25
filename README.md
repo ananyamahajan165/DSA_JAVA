@@ -23,3 +23,9 @@ I use this repository to:
 - Prefix Sum
 - Math
 - Prime Numbers
+
+## Problem Difficulty
+
+- Easy
+- Medium
+- Hard
