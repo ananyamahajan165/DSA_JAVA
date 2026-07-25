@@ -39,7 +39,7 @@ Example:
 - MaximumSubarray.java
 - BinarySearch.java
 
-  ## Goals
+## Goals
 
 - Solve LeetCode problems consistently
 - Learn optimized approaches
