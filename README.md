@@ -38,3 +38,10 @@ Example:
 - TwoSum.java
 - MaximumSubarray.java
 - BinarySearch.java
+
+  ## Goals
+
+- Solve LeetCode problems consistently
+- Learn optimized approaches
+- Prepare for coding interviews
+- Strengthen DSA concepts
