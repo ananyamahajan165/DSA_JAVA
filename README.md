@@ -29,3 +29,12 @@ I use this repository to:
 - Easy
 - Medium
 - Hard
+
+## Repository Structure
+
+Each solution is stored as an individual Java file with a descriptive filename.
+
+Example:
+- TwoSum.java
+- MaximumSubarray.java
+- BinarySearch.java
