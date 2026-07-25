@@ -45,3 +45,9 @@ Example:
 - Learn optimized approaches
 - Prepare for coding interviews
 - Strengthen DSA concepts
+
+## Progress
+
+This repository is updated regularly with new solutions and improvements.
+
+More problems will be added as I continue practicing.
