@@ -7,3 +7,6 @@ I use this repository to:
 - Improve problem-solving skills
 - Track my coding progress
 
+## Language
+
+- Java
