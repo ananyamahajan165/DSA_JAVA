@@ -10,3 +10,16 @@ I use this repository to:
 ## Language
 
 - Java
+
+## Topics Covered
+
+- Arrays
+- Strings
+- HashMap
+- HashSet
+- Sliding Window
+- Binary Search
+- Two Pointers
+- Prefix Sum
+- Math
+- Prime Numbers
