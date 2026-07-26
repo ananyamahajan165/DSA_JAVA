@@ -1,4 +1,5 @@
 public class FindFirstAndLastPositionOfElementInSortedArray {
+
     public int lowerBound(int arr[], int t, int n){
         int s = 0;
         int e = n-1;
@@ -19,6 +20,7 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
         }
         return ans;
     }
+    
     public int upperBound(int arr[], int t, int n){
         int s = 0;
         int e = n-1;
