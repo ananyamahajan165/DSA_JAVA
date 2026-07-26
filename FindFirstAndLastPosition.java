@@ -1,4 +1,5 @@
 public class FindFirstAndLastPosition {
+    
     public int search(int[] arr, int t, int first) {
         int s = 0;
         int e = arr.length - 1;
