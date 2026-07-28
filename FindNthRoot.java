@@ -1,5 +1,4 @@
 public class FindNthRoot {
-    class Solution {
     public int nthRoot(int n, int m) {
 
         if (m == 0)
@@ -28,5 +27,4 @@ public class FindNthRoot {
 
         return -1;
     }
-}
 }
