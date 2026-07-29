@@ -13,6 +13,7 @@ public class SearchInsertPosition {
                 e = m-1;
             }
         }
+        
         return s;
     }
 }
