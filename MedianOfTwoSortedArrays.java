@@ -3,7 +3,6 @@ public class MedianOfTwoSortedArrays {
 
         int m = nums1.length;
         int n = nums2.length;
-
         int[] arr = new int[m + n];
 
         int i = 0, j = 0, k = 0;
