@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
 public class PrimePairsWithTargetSum {
     int N = 1000000;
     int[] prime = new int[N];
