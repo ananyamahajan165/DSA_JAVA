@@ -9,7 +9,6 @@ public class FindNthRoot {
 
         while (low <= high) {
             int mid = low + (high - low) / 2;
-
             long power = 1;
 
             for (int i = 1; i <= n; i++) {
