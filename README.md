@@ -10,7 +10,6 @@ I use this repository to:
 - Java
 
 ## Topics Covered
-
 - Arrays
 - Strings
 - HashMap
