@@ -8,7 +8,6 @@ I use this repository to:
 - Track my coding progress
 
 ## Language
-
 - Java
 
 ## Topics Covered
